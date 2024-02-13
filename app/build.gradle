@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'application'
     id 'checkstyle'
 }
 
@@ -17,4 +17,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+application {
+    mainClass = 'org.example.Main'
 }
