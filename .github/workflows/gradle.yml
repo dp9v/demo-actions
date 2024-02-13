@@ -14,7 +14,7 @@ jobs:
         with:
           java-version: '20'
           distribution: 'temurin'
-      # - run: make checkstyle
+      - run: make checkstyle
       - run: make test
       - run: echo "testtest"
 
